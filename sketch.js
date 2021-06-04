@@ -9,13 +9,10 @@ let winningScore=1500;
 
 function setup() {
   createCanvas(400, 400);
-//laoding assets
-  //soundFormats('mp3');
-  mySound = loadSound("assets/energy.mp3");
    img = loadImage("baker.jpg");
-  let img2 = loadImage("assets/cupcakesidescroller-1.png")
-  let img3 = loadImage("assets/cookie.png")
-  let img4 = loadImage("assets/brownie.png")
+  let img2 = loadImage("cupcakesidescroller-1.png")
+  let img3 = loadImage("cookie.png")
+  let img4 = loadImage("brownie.png")
 
   hero = new Mover(img);
   force = createVector(-0.01, 0);
