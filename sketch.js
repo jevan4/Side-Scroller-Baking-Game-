@@ -9,7 +9,7 @@ let winningScore=1500;
 
 function setup() {
   createCanvas(400, 400);
-   img = loadImage("baker.jpg");
+   img = loadImage("baker.jpeg .jpg");
   let img2 = loadImage("cupcakesidescroller-1.png")
   let img3 = loadImage("cookie.png")
   let img4 = loadImage("brownie.png")
